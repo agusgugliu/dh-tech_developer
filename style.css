@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+    color: brown;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    border: solid 2px brown;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+a {
+    font-style: normal;
+    color: black;
+}
