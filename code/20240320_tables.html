@@ -16,25 +16,36 @@
         <!-- TR: table row -->
         <!-- TH: table header -->
         <!-- TD: table data -->
+        <!-- COLSPAN: sirve para combinar el título de X columnas, pero no así sus contenidos -->
+        <!-- ROWSPAN: sirve para combinar el título de X filas, pero no así sus contenidos -->
         <tr>
-            <th>Título 1</th>
-            <th>Título 2</th>
-            <th>Título 3</th>
+            
+            <colgroup>
+                <col span="1" style="background-color: lightgray;">
+            </colgroup>
+
+            <th>Número</th>
+            <th colspan="2">Nombre y Apellido</th> 
+            <!-- <th>Apellido</th> -->
+            <th>Nota</th>
         </tr>
         <tr>
-            <td>Info 1</td>
-            <td>Info 2</td>
-            <td>Info 3</td>
+            <td>#1</td>
+            <td>Agustín</td>
+            <td rowspan="2">Gugliuzza Piccinini</td>
+            <td>-</td>
         </tr>
         <tr>
-            <td>Info 1</td>
-            <td>Info 2</td>
-            <td>Info 3</td>
+            <td>#2</td>
+            <td>Joaquín</td>
+            <!-- <td>Gugliuzza Piccinini</td> -->
+            <td>-</td>
         </tr>
         <tr>
-            <td>Info 1</td>
-            <td>Info 2</td>
-            <td>Info 3</td>
+            <td>#3</td>
+            <td>Lionel Andrés</td>
+            <td>Messi</td>
+            <td>10</td>
         </tr>
     </table>
     

@@ -1,7 +1,8 @@
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 95%;
+  position: absolute;
 }
 
 td, th {
@@ -9,11 +10,11 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-
+/*
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-
+*/
 h1 {
   text-align: center;
 }
