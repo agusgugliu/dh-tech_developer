@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+ul {
+    columns: 4;
+}
+
+footer {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
