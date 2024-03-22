@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer HTML</title>
     <link href="style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./icons/home.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <section>
         <h1>Tabla de Contenidos</h1>
-        <h3>Contiene los distintos contenidos del curso y permite la navegación entre los distintos elementos.</h3>
+        <p>Contiene los distintos contenidos del curso y permite la navegación entre los distintos elementos.</p>
         <nav>
             <ul>
                 <li><a href="#"><strong>Inicio</strong></a></li>
