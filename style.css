@@ -18,3 +18,7 @@ a {
     font-style: normal;
     color: black;
 }
+
+.list-title {
+    font-weight: bold;
+}
