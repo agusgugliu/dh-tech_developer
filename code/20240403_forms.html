@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
     <link rel="shortcut icon" href="./icons/#" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style_1.css">
 </head>
 
 
@@ -13,7 +14,7 @@
     
     <h2>¿Qué son?</h2>
     <p>Los formularios en HTML son una manera de recopilar información interactivamente de los usuarios en una página web. Pueden contener diversos elementos como campos de texto, casillas de verificación, botones de radio, menús desplegables y más...</p>
-
+    
     <h2>Estructura</h2>
     <ul>
         <li><b>Estructura: </b><code>form</code> encierra los elementos.</li>
@@ -22,6 +23,36 @@
         <li><b>Destino: </b>Atributo action en <code>form</code> indica la URL para procesar datos.</li>
         <li><b>Interactividad: </b>Botones <code>input type="submit"</code> para enviar.</li>
     </ul>
+
+    <h2>Etiquetas</h2>
+    <h3>Input</h3>
+    <p>Se utiliza para crear campos de entrada como cajas de texto, contraseñas, botones de radio, casillas de verificación, etc.</p>
+
+    <h3>Textarea</h3>
+    <p>Se utiliza para crear áreas de texto de varias líneas en un formulario. A diferencia de la etiqueta de <code>input type="text"</code>, que crea una caja de texto de una sola línea, <code>textarea</code> permite a los usuarios ingresar y editar texto en un espacio más grande.</p>   
+    
+    <h3>Select & Option</h3>
+    <p>Se utilizan para crear listas desplegables en formularioes web. Estas etiquetas permiten a los usuarios seleccionar una opción de una lista pre-definida.</p>
+
+
+    <h2>Botón Submit</h2>
+    <p>El elemento clave para enviar un formulario es el botón de tipo <code>submit</code>. Puedes usar la etiqueta <code>button</code> o <code>input</code> con el atributo <code>type="submit"</code>.</p>
+
+    <h2>Métodos de Envío</h2>
+    <table>
+        <th>Get</th>
+        <th>Post</th>
+
+        <tr>
+            <ul>
+                <li>Los datos del formulario se adjuntan a la URL como parámetros.</li>
+                <li>Es visible en la barra de direcciones del navegador.</li>
+                <li>Tiene limitaciones en la cantidad de datos que se pueden enviar.</li>
+                <li>Es menos seguro para información sensible como contraseñas, ya que los datos son visibles en la URL.</li>
+            </ul>
+            <ul></ul>
+        </tr>
+    </table>
 </body>
 
 
