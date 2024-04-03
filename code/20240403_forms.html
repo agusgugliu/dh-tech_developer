@@ -40,24 +40,28 @@
 
     <h2>Métodos de Envío</h2>
     <table>
-        <th>Get</th>
-        <th>Post</th>
-
         <tr>
-            <ul>
-                <li>Los datos del formulario se adjuntan a la URL como parámetros.</li>
-                <li>Es visible en la barra de direcciones del navegador.</li>
-                <li>Tiene limitaciones en la cantidad de datos que se pueden enviar.</li>
-                <li>Es menos seguro para información sensible como contraseñas, ya que los datos son visibles en la URL.</li>
-            </ul>
+            <th>GET</th>
+            <td>
+                <ul>
+                    <li>Los datos del formulario se adjuntan a la URL como parámetros.</li>
+                    <li>Es visible en la barra de direcciones del navegador.</li>
+                    <li>Tiene limitaciones en la cantidad de datos que se pueden enviar.</li>
+                    <li>Es menos seguro para información sensible como contraseñas, ya que los datos son visibles en la URL.</li>
+                </ul>
+            </td>
         </tr>
+        
         <tr>
-            <ul>
-                <li>Los datos del formulario se envían en el cuerpo de la solicitud HTTP, no en la URL.</li>
-                <li>No es visible en la barra de direcciones.</li>
-                <li>Puede manejar cantidades más grandes de datos.</li>
-                <li>Es más seguro para información sensible, ya que los datos no son visibles en la URL.</li>
-            </ul>
+            <th>POST</th>
+            <td>
+                <ul>
+                    <li>Los datos del formulario se envían en el cuerpo de la solicitud HTTP, no en la URL.</li>
+                    <li>No es visible en la barra de direcciones.</li>
+                    <li>Puede manejar cantidades más grandes de datos.</li>
+                    <li>Es más seguro para información sensible, ya que los datos no son visibles en la URL.</li>
+                </ul>
+            </td>
         </tr>
     </table>
 </body>
