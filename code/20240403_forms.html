@@ -39,31 +39,61 @@
     <p>El elemento clave para enviar un formulario es el botón de tipo <code>submit</code>. Puedes usar la etiqueta <code>button</code> o <code>input</code> con el atributo <code>type="submit"</code>.</p>
 
     <h2>Métodos de Envío</h2>
-    <table>
-        <tr>
-            <th>GET</th>
-            <td>
-                <ul>
-                    <li>Los datos del formulario se adjuntan a la URL como parámetros.</li>
-                    <li>Es visible en la barra de direcciones del navegador.</li>
-                    <li>Tiene limitaciones en la cantidad de datos que se pueden enviar.</li>
-                    <li>Es menos seguro para información sensible como contraseñas, ya que los datos son visibles en la URL.</li>
-                </ul>
-            </td>
-        </tr>
-        
-        <tr>
-            <th>POST</th>
-            <td>
-                <ul>
-                    <li>Los datos del formulario se envían en el cuerpo de la solicitud HTTP, no en la URL.</li>
-                    <li>No es visible en la barra de direcciones.</li>
-                    <li>Puede manejar cantidades más grandes de datos.</li>
-                    <li>Es más seguro para información sensible, ya que los datos no son visibles en la URL.</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <ul>
+        <li><strong>GET</strong></li>
+        <ul>
+            <li>Los datos del formulario se adjuntan a la URL como parámetros.</li>
+            <li>Es visible en la barra de direcciones del navegador.</li>
+            <li>Tiene limitaciones en la cantidad de datos que se pueden enviar.</li>
+            <li>Es menos seguro para información sensible como contraseñas, ya que los datos son visibles en la URL.</li>
+        </ul>
+        <li><strong>POST</strong></li>
+        <ul>
+            <li>Los datos del formulario se envían en el cuerpo de la solicitud HTTP, no en la URL.</li>
+            <li>No es visible en la barra de direcciones.</li>
+            <li>Puede manejar cantidades más grandes de datos.</li>
+            <li>Es más seguro para información sensible, ya que los datos no son visibles en la URL.</li>
+        </ul>
+    </ul>
+
+    <br><br>
+    <form class="formEmp">
+        <h4>Datos Personales</h4>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido">
+        <br><br>
+        <label for="about">Presentación: </label>
+        <br>
+        <textarea name="about" id="about" cols="50" rows="5"></textarea>
+        <br>
+        <h4>Usuario</h4>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <label for="password">Contraseña: </label>
+        <input type="password" name="password" id="password">
+        <br>
+        <h4>Situación Laboral</h4>
+        <label for="situacion-laboral">Empleado</label>
+        <input type="radio" name="situacion-laboral" id="empleado" value="emp">
+        <label for="desempleado">Desempleado</label>
+        <input type="radio" name="situacion-laboral" id="desempleado" value="des">
+        <label for="busqueda">En Búsqueda</label>
+        <input type="radio" name="situacion-laboral" id="busqueda" value="bus">
+        <br>
+        <h4>Tecnologías</h4>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="tecnologias" id="html" value="1">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="tecnologias" id="css" value="2">
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" name="tecnologias" id="javascript" value="3">
+        <label for="react">React</label>
+        <br><br>
+        <input type="submit" value="OK">
+        <input type="reset" value="BORRAR">
+    </form>
 </body>
 
 

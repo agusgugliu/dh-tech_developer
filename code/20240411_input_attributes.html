@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos de Inputs</title>
+    <link rel="shortcut icon" href="./icons/#" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style_1.css">
+</head>
+
+
+<body>
+    <h1>Formularios</h1>
+    <h2>Atributos de Inputs</h2>
+
+    <form class="formEmp" method="get">
+        <h3>Datos Pre-Establecidos</h3>
+        <label for="name">Nombre: </label>
+        <input type="text" name="name" id="name" value="Agustín">
+        <label for="surname">Apellido: </label>
+        <input type="text" name="surname" id="surname" value="Gugliuzza Piccinini">
+        <p class="comment">La etiqueta de <code>value</code> nos permite asignarle un valor inicial al input.</p>
+        <input type="text" name="titulo" id="titulo" placeholder="Escribe el título obtenido.">
+        <hr>
+        <h3>Datos Fijos</h3>
+        <label for="document">Documento: </label>
+        <input type="text" name="document" id="document" value="40567020" readonly>
+        <p class="comment">La etiqueta de <code>readonly</code> no nos deja modificar el valor del input.</p>
+        <label for="document">Documento: </label>
+        <input type="text" name="document" id="document" value="40567020" disabled>
+        <p class="comment">La etiqueta de <code>disabled</code> no nos deja modificar el valor del input y además lo muestra en color gris.</p>
+        <hr>
+        <h3>Mínimos y Máximos</h3>
+        <label for="about">Presentación: </label>
+        <br>
+        <textarea name="about" id="" cols="50" rows="5" minlength="20" maxlength="240"></textarea>
+        <p class="comment">La etiqueta <code>minlength</code> nos permite definir la cantidad mínima de caracteres para un input, mientras que la etiqueta de <code>maxlength</code> nos deja definir la cantidad máxima.</p>
+        <br>
+        <label for="number">Edad: </label>
+        <input type="number" name="number" id="number" min="18" max="65">
+        <br>
+        <label for="date">Fecha de Nacimiento: </label>
+        <input type="date" name="date" id="date" min="1900-01-01" max="2024-12-31">
+        <br>
+        <label for="range">Años de Experiencia: </label>
+        <input type="range" name="range" id="range" min="0" max="10" value="0">
+        <p class="comment">Para números y fechas, las etiquetas para definir los mínimos y máximos son <code>min</code> y <code>max</code>.</p>
+        <hr>
+        <h3>Elementos Múltiples</h3>
+        <label for="file">Seleccione Archivo(s): </label>
+        <input type="file" name="file" id="file" multiple>
+        <p class="comment">La etiqueta <code>multiple</code> nos permite seleccionar más de una opción.</p>
+        <hr>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+
+
+<footer>
+    <p>Volver al <a href="../index.html">Inicio</a>.</p>
+</footer>
+
+</html>
