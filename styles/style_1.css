@@ -31,3 +31,8 @@ code {
     text-align: right;
     font-style: italic;
 }
+.videoFrame {
+    height: 150px;
+    width: 300px;
+    align-content: center;
+}

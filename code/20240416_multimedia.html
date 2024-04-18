@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Multimedia: Audio & Video</title>
+        <link href="../styles/style_1.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../icons/multimedia.ico" type="image/x-icon">
+    </head>
+<body>
+    <h1>Multimedia</h1>
+    <h2>Video</h2>
+    <p>
+        Para incorporar un archivo de video a la página web usamos la etiqueta <code>video</code>.
+        <br>
+        <ul>
+            <li><code>autoplay</code> >>Nos permite hacer que el video empiece a correr ni bien se abre la pantalla.</li>
+            <li><code>muted</code> >>Nos permite configurar que el video arranque siempre sin sonido.</li>
+            <li><code>controls</code> >>Permite visualizar los controles del video.</li>
+        </ul>
+    </p>
+    <div class="videoFrame">
+        <video height="150px" width="300px" muted controls>
+            <source src="../assets/video/Tiger.MP4" type="video/mp4">
+            <source src="../assets/video/Tiger.MP4" type="video/mpg">
+            Tu navegador no soporta este tipo de video.
+        </video>
+    </div>
+
+    <h2>Audio</h2>
+    <p>
+
+    </p>
+    <div class="audioFrame">
+        <audio controls autoplay>
+            <source src="../assets/audio/PlayersAudio.mp3" type="audio/mp3">
+            <source src="../assets/audio/PlayersAudio.mp3" type="audio/wav">
+            Este formato de audio no es soportado por el navegador.
+        </audio>
+    </div>
+
+</body>
+
+<footer>
+    <p>Volver al <a href="../index.html">Inicio</a>.</p>
+</footer>
+
+</html>
